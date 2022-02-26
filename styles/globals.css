@@ -1,0 +1,27 @@
+@font-face {
+  font-family: QS;
+  src: url("../fonts/Quicksand-Bold.ttf");
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #163461;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #244d8a;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
